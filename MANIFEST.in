@@ -1,0 +1,13 @@
+include README.md
+include LICENSE.txt
+include *.txt
+
+graft openpivtk/docs
+graft openpivtk/examples
+graft openpivtk/GUI
+graft openpivtk/test
+
+prune openpivtk/pouya
+prune build
+prune dist
+prune OpenPIVToolkit.egg-info
