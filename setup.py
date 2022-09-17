@@ -26,7 +26,8 @@ setup(
         'matplotlib>=3',
         'scikit-image',
         'scipy',
-        'PySide2'
+        'PySide2',
+        'h5py'
     ],
     classifiers = [
         # PyPI-specific version type. The number specified here is a magic constant
